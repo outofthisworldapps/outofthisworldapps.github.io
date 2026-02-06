@@ -175,7 +175,7 @@ section {
     height: 100%;
 }
 
-.app-image img {
+.app-image img:not(.app-icon) {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -183,7 +183,7 @@ section {
     border-radius: 12px 12px 0 0;
 }
 
-.app-card:hover .app-image img {
+.app-card:hover .app-image img:not(.app-icon) {
     transform: scale(1.05);
 }
 
